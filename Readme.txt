@@ -5,6 +5,8 @@ Calculator - Creates a functional calculator using Java applets.
 
 Hangman - Simulates the game Hangman. Created using Java and MySQL.
 
+Learning Teachers - Modeling student behavior using Machine Learning, to improve automated instructional decisions made by intelligent tutoring systems, for teaching histograms to students.
+
 Medical Management - Consists of a Software Requirement Specification (SRS) for an imaginary medical management symtem software.
 
 Network Routing - Research based project on understanding the Network Routing Problem and study of Network Routing Algorithms.
