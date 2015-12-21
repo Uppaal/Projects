@@ -1,0 +1,52 @@
+package applets;
+import javax.swing.JApplet;
+import javax.swing.*;
+import java.awt.event.*;
+
+public class Calculator extends JApplet implements ActionListener
+{   
+    JButton add, sub, mul, div, mod;
+    JTextField a, b, c;
+    JLabel eq, l1, l2,l3;
+    
+    @Override
+    public void init()
+    {
+        add=new JButton("+");       add.setBounds(140,10,50,30);        add.addActionListener(this);       add(add);
+        sub=new JButton("-");       sub.setBounds(140,50,50,30);        sub.addActionListener(this);       add(sub);
+        mul=new JButton("*");       mul.setBounds(140,90,50,30);        mul.addActionListener(this);       add(mul);
+        div=new JButton("/");       div.setBounds(140,130,50,30);       div.addActionListener(this);       add(div);
+        mod=new JButton("%");       mod.setBounds(140,170,50,30);       mod.addActionListener(this);       add(mod);
+        
+        
+        a= new JTextField("");        a.setBounds(20,90,100,30);          a.addActionListener(this);        add(a);
+        b= new JTextField("");        b.setBounds(210,90,100,30);         b.addActionListener(this);        add(b);
+        c= new JTextField("");        c.setBounds(360,90,100,30);         c.addActionListener(this);        add(c);
+        
+        eq=new JLabel("=");                     eq.setBounds(330,90,50,30);         add(eq);
+        l1=new JLabel("First Number");          l1.setBounds(30,60,100,30);         add(l1);
+        l2=new JLabel("Second Number");         l2.setBounds(220,60,100,30);        add(l2);
+        l3=new JLabel("Answer");                l3.setBounds(380,60,100,30);        add(l3);
+        setLayout(null);
+    }
+    
+    @Override
+    public void actionPerformed(ActionEvent e)
+    {
+        int n1=Integer.parseInt(a.getText()), n2=Integer.parseInt(b.getText()), ans=0;
+        String s=e.getActionCommand();
+
+        if(s.equals("+"))
+            ans=n1+n2;
+        if(s.equals("-"))
+            ans=n1-n2;
+        if(s.equals("*"))
+            ans=n1*n2;
+        if(s.equals("/"))
+            ans=n1/n2;
+        if(s.equals("%"))
+            ans=n1%n2;
+
+        c.setText(""+ans);
+    }
+}
