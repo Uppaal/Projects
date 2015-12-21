@@ -1,1 +1,1 @@
-This repo contains the codes and documentation for all the projects I have completed.
+This repo contains the codes and documentation for all the projects I have completed, as a part of academic coursework or otherwise.
