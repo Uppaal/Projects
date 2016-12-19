@@ -3,6 +3,12 @@ This repository contains the codes and documentation for all the projects I have
 
 Calculator - Creates a functional calculator using Java applets.
 
+CharacterPrediction - Character prediction using Recurrent Neural Networks
+
+DigitRecognition - Recognising handwritten digits from the MNIST dataset using Convolutional Neural Networks
+
+FER - Facial Expression Recognition using Deep Learning
+
 Hangman - Simulates the game Hangman. Created using Java and MySQL.
 
 Learning Teachers - Modeling student behavior using Machine Learning, to improve automated instructional decisions made by intelligent tutoring systems, for teaching histograms to students.
@@ -13,11 +19,12 @@ Network Routing - Research based project on understanding the Network Routing Pr
 
 Notepad - Creates an application replicating the text processing software, Notepad, using Java.
 
+POOH - Distributed Intrusion Detection through Honeypots, using Random Forests for automatic detection
+
 Social Networking - Simulates the back-end of a social networking website, using MySQL.
 
+Vehicles - Using Region based Convolutional Neural Networks to create a system to detect, track and classify vehicles from video footage
+
 Tic Tac Toe - Simulates the game Tic Tac Toe using C++.
-
-
-
 
 
