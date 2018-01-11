@@ -1,6 +1,6 @@
-##Projects
+## Projects
 
-###This repository contains the codes and documentation for all my (older) projects, as a part of academic coursework or otherwise. Short descriptions of each project are given below:
+### This repository contains the codes and documentation for all my (older) projects, as a part of academic coursework or otherwise. Short descriptions of each project are given below:
 
 Calculator - Creates a functional calculator using Java applets.
 
