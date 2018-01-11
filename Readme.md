@@ -1,5 +1,6 @@
-This repository contains the codes and documentation for all the projects I have completed, as a part of academic coursework or otherwise.
+##Projects
 
+###This repository contains the codes and documentation for all my (older) projects, as a part of academic coursework or otherwise. Short descriptions of each project are given below:
 
 Calculator - Creates a functional calculator using Java applets.
 
@@ -26,5 +27,3 @@ Social Networking - Simulates the back-end of a social networking website, using
 Vehicles - Using Region based Convolutional Neural Networks to create a system to detect, track and classify vehicles from video footage
 
 Tic Tac Toe - Simulates the game Tic Tac Toe using C++.
-
-
